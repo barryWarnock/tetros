@@ -1,0 +1,15 @@
+* useful links
+[[https://blog.ghaiklor.com/how-to-implement-a-second-stage-boot-loader-80e75ae4270c][second stage bootloader tutorial]]
+[[https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html#InputOperands][gnu inline asm]]
+[[http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm][asm syntax]]
+[[https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm][asm registers]]
+[[http://wiki.osdev.org/Drawing_In_Protected_Mode][drawing in protected mode]]
+* TODO create 'floppy' image
+I'll need to load other memory into ram then jump to it, that means I need both the bootloader and the program to be in the same data file somehow.
+This may be possible to do just by linking
+https://blog.ghaiklor.com/how-to-implement-a-second-stage-boot-loader-80e75ae4270c
+
+* TODO create c program that does the following
+** TODO clear screen
+** TODO draw text
+** TODO draw line
