@@ -13,5 +13,14 @@ void print_alphabet() {
 }
 
 extern void loader_main() {
+  char c = 'A';
+    
+    asm (
+		  "mov %[c], %%al;"
+		  "mov $0x0E, %%ah;"
+		  "int $0x10;"
+		  :
+		  : [c] "r" (c)
+		  );
   print_alphabet();
 }

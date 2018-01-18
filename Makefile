@@ -20,4 +20,4 @@ run: image.bin
 	qemu-system-x86_64 -fda image.bin
 
 debug: image.bin
-	qemu-system-x86_64 -s -S -fda image.bin & gdb -s tetris.elf -ex "target remote localhost:1234"
+	gdb -x debug.gdb
