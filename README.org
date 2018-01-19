@@ -1,3 +1,5 @@
 * Tetris on bare metal
 
 This project is an attempt at making a tetris program that runs on bare metal x86 starting as a bootloader then switching to protected mode. Tetros?
+
+Right now it's just experiments with writing programs that run on bare metal

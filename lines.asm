@@ -34,6 +34,39 @@
 	push 0x0A
 	push 0x04
 	call put_pixel
+	add sp, 6
+
+	push 0x0B
+	push 0x0A
+	push 0x04
+	call put_pixel
+	add sp, 6
+
+	push 0x0C
+	push 0x0A
+	push 0x04
+	call put_pixel
+	add sp, 6
+
+	push 0x0D
+	push 0x0A
+	push 0x04
+	call put_pixel
+	add sp, 6
+
+	push 0x0E
+	push 0x0A
+	push 0x04
+	call put_pixel
+	add sp, 6
+
+	push 0x0F
+	push 0x0A
+	push 0x04
+	call put_pixel
+	add sp, 6
+
+after:	
 
 	cli
 	jmp $
@@ -52,12 +85,15 @@ clearscreen:
 put_pixel:
 	prologue
 
-	mov cx, [bp+4]		;x
-	mov dx, [bp+8]		;y
-	mov ax, [bp+12]		;colour
-
+	mov cx, [bp+8]		;x
+	mov dx, [bp+6]		;y
+	mov ax, [bp+4]		;colour
+	;; mov al, 0x04	
+	
+	
 	mov ah, 0x0C		;put pixel
 	mov bh, 0x00		;page
+	.pixel_break:
 	int 0x10		;bios graphics int
 
 	epilogue

@@ -1,11 +1,11 @@
-image.bin: tetris.asm
-	nasm -f bin -o image.bin tetris.asm
+image.bin: lines.asm
+	nasm -f bin -o image.bin lines.asm
 
-tetris.elf: tetris.asm
-	nasm -f elf -o tetris.elf tetris.asm
+lines.elf: lines.asm
+	nasm -f elf -o lines.elf lines.asm
 
 run: image.bin
 	qemu-system-x86_64 -fda image.bin
 
-debug: tetris.elf image.bin
+debug: lines.elf image.bin
 	gdb -x debug.gdb
