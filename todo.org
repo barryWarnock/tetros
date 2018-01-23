@@ -1,9 +1,11 @@
 * useful links
 [[https://blog.ghaiklor.com/how-to-implement-a-second-stage-boot-loader-80e75ae4270c][second stage bootloader tutorial]]
+[[vga programming][http://www.brackeen.com/vga/]]
 [[https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html#InputOperands][gnu inline asm]]
 [[http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm][asm syntax]]
 [[https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm][asm registers]]
 [[http://wiki.osdev.org/Drawing_In_Protected_Mode][drawing in protected mode]]
+[[graphics mode addresses][http://webpages.charter.net/danrollins/techhelp/0089.HTM]]
 * TODO create c program that does the following
 ** TODO clear screen
 ** TODO draw text
