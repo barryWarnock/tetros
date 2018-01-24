@@ -1,5 +1,6 @@
 * useful links
 [[https://blog.ghaiklor.com/how-to-implement-a-second-stage-boot-loader-80e75ae4270c][second stage bootloader tutorial]]
+[[https://www.lurklurk.org/linkers/linkers.html][hows a linker work?]]
 [[vga programming][http://www.brackeen.com/vga/]]
 [[https://gcc.gnu.org/onlinedocs/gcc/Extended-Asm.html#InputOperands][gnu inline asm]]
 [[http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm][asm syntax]]
