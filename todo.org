@@ -7,6 +7,14 @@
 [[https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm][asm registers]]
 [[http://wiki.osdev.org/Drawing_In_Protected_Mode][drawing in protected mode]]
 [[graphics mode addresses][http://webpages.charter.net/danrollins/techhelp/0089.HTM]]
+[[https://wiki.osdev.org/Rolling_Your_Own_Bootloader][oswiki: roll your own bootloader]]
+[[https://wiki.osdev.org/GDT_Tutorial][GDT tutorial]]
+[[https://wiki.osdev.org/A20_Linek][A20 line]]
+[[https://en.wikipedia.org/wiki/BIOS_interrupt_call][BIOS interrupts]]
+[[https://www.math.utah.edu/docs/info/ld_3.html#SEC8][ld docs]]
+[[https://www.codeproject.com/articles/664165/writing-a-boot-loader-in-assembly-and-c-part][bootloader in c and asm]]
+[[https://www.lurklurk.org/linkers/linkers.html#cfile][what does the c compiler do]]
+[[http://www.asciitable.com/][ascii table]]
 * TODO create c program that does the following
 ** TODO clear screen
 ** TODO draw text

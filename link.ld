@@ -9,6 +9,7 @@ SECTIONS
     }
     .data : { *(.data); }
     .bss : { *(.bss); }
+    .rodata : {*(.rodata);}
     .sig : AT(0x7DFE)
     {
         SHORT(0xaa55);
