@@ -95,10 +95,10 @@ void draw_rect(int x1, int y1, int x2, int y2, char colour) {
 void fun_rects() {
   int width = SCREEN_WIDTH;
   int height = SCREEN_HEIGHT;
-  unsigned char c = 0;
+  unsigned char c = 32;
   int x, y;
   int startTicks;
-  const char ticksPerRect = 1;
+  const char ticksPerRect = 0;
   
   while(true) {
     startTicks = get_ticks();
@@ -106,7 +106,7 @@ void fun_rects() {
       width = SCREEN_WIDTH;  
       height = SCREEN_HEIGHT;
     }
-    if (c > 200) c = 0;
+    if (c > 54) c = 32;
     x = (SCREEN_WIDTH-width)/2;
     y = (SCREEN_HEIGHT-height)/2;
     draw_rect(x, y, x+width-1, y+height-1, c++);

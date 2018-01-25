@@ -11,6 +11,6 @@ SECTIONS
     .rodata : {*(.rodata);}
     .sig : AT(0x7DFE)
     {
-	BYTE(0xAA);BYTE(0x55);
+        SHORT(0xAA55);
     }
 } 
