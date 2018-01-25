@@ -5,13 +5,12 @@ SECTIONS
     .text : AT(0x7C00)
     {
         *(.text);
-	FILL(0x00);
     }
     .data : { *(.data); }
     .bss : { *(.bss); }
     .rodata : {*(.rodata);}
     .sig : AT(0x7DFE)
     {
-        SHORT(0xaa55);
+	BYTE(0xAA);BYTE(0x55);
     }
 } 

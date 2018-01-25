@@ -6,7 +6,7 @@
 [[http://www.imada.sdu.dk/Courses/DM18/Litteratur/IntelnATT.htm][asm syntax]]
 [[https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm][asm registers]]
 [[http://wiki.osdev.org/Drawing_In_Protected_Mode][drawing in protected mode]]
-[[graphics mode addresses][http://webpages.charter.net/danrollins/techhelp/0089.HTM]]
+[[http://webpages.charter.net/danrollins/techhelp/0089.HTM][graphics mode addresses]]
 [[https://wiki.osdev.org/Rolling_Your_Own_Bootloader][oswiki: roll your own bootloader]]
 [[https://wiki.osdev.org/GDT_Tutorial][GDT tutorial]]
 [[https://wiki.osdev.org/A20_Linek][A20 line]]
@@ -16,6 +16,7 @@
 [[https://www.lurklurk.org/linkers/linkers.html#cfile][what does the c compiler do]]
 [[http://www.asciitable.com/][ascii table]]
 * TODO create c program that does the following
-** TODO clear screen
+** DONE clear screen
 ** TODO draw text
-** TODO draw line
+   leaving this for protected mode, I'm nearly out of space in my C "bootloader"
+** DONE draw line
